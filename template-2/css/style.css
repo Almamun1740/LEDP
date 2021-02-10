@@ -1,1 +1,9 @@
-
+.h {
+     background-color: blueviolet;
+     height: 12px;
+ } 
+ .title {
+     color: red;
+     /* text-transform: uppercase; */
+     font-variant: small-caps;
+ }
