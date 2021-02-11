@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+i {
+    color: #2fccd0;
+}
+/* header start  */
+/* #topheader {
+    position: absolute;
+    z-index: 1;
+}
+
+#topheader .navbar ul {
+    right: 0px;
+    display: flex;
+} */
+
+/* .navbar-nav {
+    float: right;
+} */
+/* header end */
+/* ==========slider start  */
+#slider1 {
+    position: relative;
+    background: url('../img/bg.jpg') no-repeat;
+    height: 670px;
+    width: 100%;
+
+}
+
+.slider1 h1 {
+    margin-top: 228px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.slider1 .hr {
+    border-bottom: 3px solid #00E0D0;
+    width: 66px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    margin: 0px 0px 0px 521px;
+
+}
+
+.slider1 .textP {
+    left: 216px;
+}
+
+.slider1 p {
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* .slider1 a {
+    width: 121px;
+    height: 41px;
+    font-size: 16px;
+    color: #00E0D0;
+    word-wrap: 2px;
+    border: 3px solid #00E0D0;
+    align-items: center;
+    margin-left: 288px;
+   
+} */
+.slider1 .button1 {
+    background-attachment: fixed;
+    background-color: #2E1C36;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px 25px;
+    opacity: 0.9;
+    border: 3px solid #00E0D0;
+    cursor: pointer;
+    margin-left: 222px;
+}
+
+.slider1 .button1 a {
+    color: #16988A !important;
+}
+
+.slider1 .slick-dots {
+    bottom: -96px;
+    left: -56px;
+}
+
+.slider1 .slick-dots li {
+    left: 76px;
+    height: 25px;
+    width: 25px;
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.slider1 .slick-dots li.slick-active {
+    background-color: #00E0D0;
+    border: none;
+    height: 25px;
+    width: 25px;
+}
+
+/* ==========slider end */
+
+/* story section start ===== */
+
+/* story section end ===== */
+ video {
+     cursor: pointer;
+ }
+
+/* =============service section start  */
+.serviceoffers {
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.extradiv {
+    background: #fff;
+    border: medium none;
+    padding: 50px !important;
+    border-radius: 3px;
+    transition: 0.3s;
+
+}
+
+.extradiv h2 {
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+/* .extradiv:hover {
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+} */
+
+
+.headings {
+    margin-bottom: 50px;
+}
+
+.headings h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1 {
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.service-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =============service section end */
+
+/* card section start =============== */
+#team {
+    background: url(../img/bg.jpg);
+    width: 100%;
+    height: cover;
+}
+
+/* card section end =============== */
+
+
+/* testimonial section start =========== */
+#bg-testimonial {
+    background: url('../img/bg.jpg') no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+#testimonial-slider {
+    margin-left: 156px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.testimonial .description {
+    font-size: 14px;
+    color: #777;
+    line-height: 26px;
+    text-indent: 30px;
+    position: relative;
+}
+
+.testimonial .description:before {
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: -15px;
+}
+
+.testimonial .title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #646262;
+    text-transform: capitalize;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.testimonial .post {
+    display: block;
+    font-size: 15px;
+    color: #363636;
+}
+
+.owl-buttons {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.owl-next {
+    left: auto;
+    right: 0;
+}
+
+.owl-buttons .owl-prev:before,
+.owl-buttons .owl-next:before {
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 60px;
+    font-weight: 900;
+    color: #cacaca;
+    line-height: 20px;
+    opacity: 0.8;
+}
+
+.owl-buttons .owl-next:before {
+    content: "\f105";
+}
+
+.owl-buttons .owl-prev:hover:before,
+.owl-buttons .owl-next:hover:before {
+    opacity: 1;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    background: transparent;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 40px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid dodgerblue;
+    background: url("../img/client-02.png") no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.owl-theme .owl-controls .owl-page:nth-child(2) span {
+    background: url("../img/client-03.png") no-repeat;
+    background-size: cover;
+}
+
+.owl-theme .owl-controls .owl-page:nth-child(3) span {
+    background: url("../img/formal.png") no-repeat;
+    background-size: cover;
+}
+
+.owl-theme .owl-controls .owl-page:nth-child(4) span {
+    background: url("../img/beautiful-1274056_1920.jpg") no-repeat;
+    background-size: cover;
+}
+
+.owl-theme .owl-controls .owl-page:nth-child(5) span {
+    background: url("../img/angel-749625_1920.jpg") no-repeat;
+    background-size: cover;
+}
+
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    opacity: 0.5;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active:hover span {
+    border-color: dodgerblue;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 479px) {
+    .owl-buttons {
+        bottom: 30%;
+    }
+}
+
+
+/* testimonial section end =========== */
