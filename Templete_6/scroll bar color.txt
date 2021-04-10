@@ -1,0 +1,25 @@
+/*================================================
+03 - SCROLLBAR CSS
+==================================================*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1B1F20;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFA700;
+}
+
+::-moz-selection {
+    background: #FFA700;
+    color: #fff
+}
+
+::selection {
+    background: #FFA700;
+    color: #fff
+}
